@@ -1,5 +1,7 @@
+import Slide from './Slide';
 import Menu from './Menu';
 
 export {
-    Menu
+    Menu,
+    Slide
 }
