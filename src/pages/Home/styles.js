@@ -24,6 +24,27 @@ export const Main = styled.main`
         }
     }
 `;
+export const Aside = styled.aside`
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 10px;
 
-export const Header = styled.header``;
+    .offers, .franchises{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        margin: 10% auto;
+    }
+    .offers{
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: ${Colors.cls_white};
+    }
+    .franchises{
+
+    }
+`;
 export const Footer = styled.footer``;

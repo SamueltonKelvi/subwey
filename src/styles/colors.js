@@ -6,5 +6,6 @@ export const Colors = {
     cls_green_ligth: '#DEEBD3',
     cls_yellow: '#FFC214',
     cls_gray: '#777777',
-    cls_gray_ligth: '#CCCCCC'
+    cls_gray_ligth: '#CCCCCC',
+    cls_rgba_black: 'rgba(0, 0, 0, 0.24)'
 }
