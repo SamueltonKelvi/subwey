@@ -1,5 +1,5 @@
 import React from 'react';
-import { Main, Aside } from './styles';
+import { Main, Aside, Footer } from './styles';
 import { Global } from '../../styles/global';
 import { Menu, Slide, CardOffers } from '../../components';
 
@@ -46,18 +46,59 @@ export default function Home() {
           />
         </section>
         <section className="franchises">
-          <h5></h5>
-          <h3></h3>
-          <img src={Subway} alt="Subway logo"/>
-          <p>Junte-se à equipe vendedora e assuma o controle de seu futuro com os restaurantes SUBWAY </p>
-          <ul>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <button>Cadastra</button>
-          </ul>
+          <div id="logo">
+            <img src={Subway} alt="Subway logo" />
+          </div>
+          <div>
+            <h3>SEJA DONA DE UMA FRANQUIA</h3>
+            <h5>INSCREVA-SE HOJE</h5>
+            <p>Junte-se à equipe vendedora e assuma o controle de seu futuro com os restaurantes SUBWAY </p>
+            <ul>
+              <li><a href="#">Tudo sobre franquia</a></li>
+              <li><a href="#">Envie localizações ótimas</a></li>
+              <li><a href="#">Oportunidades no mundo todo</a></li>
+            </ul>
+            <button>Candidatar-se a proprietário</button>
+          </div>
         </section>
       </Aside>
+      <Footer>
+        <section className="footer-top">
+          <ul>
+            <strong>Gestão</strong>
+            <li><a href="#">Subway Partners</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+          <ul>
+            <strong>Social</strong>
+            <li><a href="#">Curta-nos no Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Foursquare</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">TikTok</a></li>
+          </ul>
+          <ul>
+            <strong>Gestão de perfil</strong>
+            <li><a href="#">Entre em contato conosco</a></li>
+          </ul>
+          <ul>
+            <strong>Jurídico</strong>
+            <li><a href="#">Declaração de privacidade</a></li>
+            <li><a href="#">Termos de uso</a></li>
+          </ul>
+          <ul>
+            <strong>Acessibilidade</strong>
+            <li><a href="#">Adobe PDF Reader</a></li>
+            <li><a href="#">Adobe Flash Plugin</a></li>
+          </ul>
+        </section>
+        <section className="footer-bottom">
+          <strong>SUBWAY® é uma marca registrada da Subway IP LLC.</strong>
+          <strong>© 2021 Subway IP LLC.</strong>
+          <strong>Todos os direitos reservados.</strong>
+          <a href="#">Configurações de cookies</a>
+        </section>
+      </Footer>
     </Main>
   );
 }

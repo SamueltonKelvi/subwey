@@ -5,8 +5,8 @@ import { Colors } from '../../styles/colors';
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 24rem;
+    width: 15rem;
+    height: 22rem;
     align-items: center;
     justify-content: space-between;
     margin: 5px;
@@ -37,7 +37,8 @@ const Container = styled.div`
         font-weight: normal;
         color: ${Colors.cls_gray};
         line-height: 25px;
-        height: 25%;
+        height: 20%;
+        width: 100%;
     }
 `;
 
