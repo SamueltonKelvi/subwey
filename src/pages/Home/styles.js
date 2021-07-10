@@ -176,4 +176,12 @@ export const Footer = styled.footer`
         }
     }
 
+    @media (max-width: 700px){
+        .footer-top, .footer-bottom{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
 `;
