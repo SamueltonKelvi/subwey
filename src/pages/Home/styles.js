@@ -36,20 +36,17 @@ export const Aside = styled.aside`
         flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
-        margin: 10% auto;
+        margin: 5% auto;
     }
     .offers{
         align-items: center;
         justify-content: space-evenly;
-        background-color: ${Colors.cls_white};
     }
     .franchises{
         padding: 10px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: ${Colors.cls_green};
-        border-radius: 10px;
 
         img{
             width: 60%;
@@ -66,14 +63,15 @@ export const Aside = styled.aside`
         }
         h3, h5{
             font-weight: bold;
-            color: ${Colors.cls_yellow};  
+            color: ${Colors.cls_yellow}; 
         }
         h5{
             font-weight: normal;
             font-size: 30px;
+            color: ${Colors.cls_yellow}; 
         }
         p, li, a{
-            color: ${Colors.cls_white};
+            color: ${Colors.cls_gray}; 
             font-size: 18px;
             text-align: left;
         }

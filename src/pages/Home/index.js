@@ -50,14 +50,17 @@ export default function Home() {
             <img src={Subway} alt="Subway logo" />
           </div>
           <div>
-            <h3>SEJA DONA DE UMA FRANQUIA</h3>
+            <h3>SEJA DONO DE UMA FRANQUIA</h3>
             <h5>INSCREVA-SE HOJE</h5>
+            <br />
             <p>Junte-se à equipe vendedora e assuma o controle de seu futuro com os restaurantes SUBWAY </p>
+            <br />
             <ul>
               <li><a href="#">Tudo sobre franquia</a></li>
               <li><a href="#">Envie localizações ótimas</a></li>
               <li><a href="#">Oportunidades no mundo todo</a></li>
             </ul>
+            <br />
             <button>Candidatar-se a proprietário</button>
           </div>
         </section>
