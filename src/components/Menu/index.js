@@ -102,7 +102,9 @@ export default function Menu() {
     return (
         <Nav>
             <figure>
-                <img src={Logo} alt="Logo" />
+                <a href="/">
+                    <img src={Logo} alt="Logo" />
+                </a>
                 <ul>
                     <li>
                         <img src={Flag} alt="Bandeira do Brasil" />
@@ -117,11 +119,11 @@ export default function Menu() {
                 </ul>
             </figure>
             <ul id="nav-menu">
-                <li><a href="#">Encontre uma loja</a></li>
-                <li><a href="#"> Menu e nutrição</a></li>
-                <li><a href="#"> Catering</a></li>
-                <li><a href="#"> SUBS NBA</a></li>
-                <li><a href="#"> Social</a></li>
+                <li><a href="/search">Encontre uma loja</a></li>
+                <li><a href="#">Menu e nutrição</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">SUBS NBA</a></li>
+                <li><a href="#">Social</a></li>
                 <li><a href="#">CONTATE-NOS</a></li>
                 <li><a href="#">Sobre-Nós</a></li>
                 <li><a href="#">Carreiras</a></li>

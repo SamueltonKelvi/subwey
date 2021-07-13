@@ -6,8 +6,8 @@ export const Global = createGlobalStyle`
         padding: 0px;
         box-sizing: border-box;
     }
-    body{
-        max-width: 1400px;
+    html, body{
+        max-width: 100%;
         font-family: 'Roboto', sans-serif;
         height: 100%;
         scroll-behavior: smooth;

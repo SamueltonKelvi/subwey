@@ -1,7 +1,7 @@
 import React from 'react';
-import { Main, Aside, Footer } from './styles';
+import { Main, Aside } from './styles';
 import { Global } from '../../styles/global';
-import { Menu, Slide, CardOffers } from '../../components';
+import { Menu, Slide, CardOffers, Footer } from '../../components';
 
 import CardOne from '../../assets/card_01.jpg';
 import CardTwo from '../../assets/card_02.jpg';
@@ -9,6 +9,7 @@ import CardTree from '../../assets/card_03.jpg';
 import Subway from '../../assets/subway.jpg';
 
 export default function Home() {
+  const [cookies, setCookies] = React.useState(false);
 
   const handleDelivery = () => { };
 
@@ -65,43 +66,7 @@ export default function Home() {
           </div>
         </section>
       </Aside>
-      <Footer>
-        <section className="footer-top">
-          <ul>
-            <strong>Gestão</strong>
-            <li><a href="#">Subway Partners</a></li>
-            <li><a href="#">Carreiras</a></li>
-          </ul>
-          <ul>
-            <strong>Social</strong>
-            <li><a href="#">Curta-nos no Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Foursquare</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">TikTok</a></li>
-          </ul>
-          <ul>
-            <strong>Gestão de perfil</strong>
-            <li><a href="#">Entre em contato conosco</a></li>
-          </ul>
-          <ul>
-            <strong>Jurídico</strong>
-            <li><a href="#">Declaração de privacidade</a></li>
-            <li><a href="#">Termos de uso</a></li>
-          </ul>
-          <ul>
-            <strong>Acessibilidade</strong>
-            <li><a href="#">Adobe PDF Reader</a></li>
-            <li><a href="#">Adobe Flash Plugin</a></li>
-          </ul>
-        </section>
-        <section className="footer-bottom">
-          <strong>SUBWAY® é uma marca registrada da Subway IP LLC.</strong>
-          <strong>© 2021 Subway IP LLC.</strong>
-          <strong>Todos os direitos reservados.</strong>
-          <a href="#">Configurações de cookies</a>
-        </section>
-      </Footer>
+      <Footer cookies={cookies} setCookies={setCookies} />
     </Main>
   );
 }
