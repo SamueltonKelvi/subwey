@@ -9,7 +9,6 @@ import CardTree from '../../assets/card_03.jpg';
 import Subway from '../../assets/subway.jpg';
 
 export default function Home() {
-  const [cookies, setCookies] = React.useState(false);
 
   const handleDelivery = () => { };
 
@@ -66,7 +65,7 @@ export default function Home() {
           </div>
         </section>
       </Aside>
-      <Footer cookies={cookies} setCookies={setCookies} />
+      <Footer />
     </Main>
   );
 }

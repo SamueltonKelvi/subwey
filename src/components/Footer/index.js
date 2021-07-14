@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from '../../styles/colors';
-import { IoCloseOutline } from 'react-icons/io5';
 
 const Container = styled.footer`
     display: flex;
@@ -58,58 +57,7 @@ const Container = styled.footer`
             opacity: 0.8;
         }
     }
-    .cookies{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 10px;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        left: 0px;
-        background-color: ${Colors.cls_white};
-        z-index: 100;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     
-        p{
-            color: ${Colors.cls_black};
-            text-align: left;
-            width: auto;
-            font-size: 12px;
-            width: 60%;
-        }
-        label{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: auto;
-            height: auto;
-        }
-        a{
-            padding: 10px;
-            color: ${Colors.cls_green};
-            font-size: 12px;
-        }
-        #accept{
-            background-color: ${Colors.cls_green};
-            color: ${Colors.cls_white};
-        }
-        #accept:hover{
-            opacity: 0.8;
-        }
-        button{
-            border: none;
-            background-color: transparent;
-            cursor: pointer;
-        }
-        button:hover{
-            opacity: 0.8;
-        }
-    }
-
     @media (max-width: 700px){
         .footer-top, .footer-bottom{
             flex-direction: column;
@@ -125,7 +73,7 @@ const Container = styled.footer`
     }
 `;
 
-export default function Footer({ cookies, setCookies }) {
+export default function Footer() {
     return (
         <Container>
             <section className="footer-top">
@@ -163,20 +111,6 @@ export default function Footer({ cookies, setCookies }) {
                 <strong>Todos os direitos reservados.</strong>
                 <a href="#">Configurações de cookies</a>
             </section>
-            {cookies && <div className="cookies">
-                <p>
-                    Ao clicar em "Aceitar todos os cookies", concorda com o armazenamento de cookies no
-                    seu dispositivo para melhorar a navegação no site,
-                    analisar a utilização do site e ajudar nas nossas iniciativas de marketing.
-                </p>
-                <label>
-                    <a href="#">Definições de cookies</a>
-                    <a href="#" id="accept" onClick={() => setCookies(false)}>Aceitar todos os cookies</a>
-                    <button onClick={() => setCookies(false)}>
-                        <IoCloseOutline size={30} color={Colors.cls_gray} />
-                    </button>
-                </label>
-            </div>}
         </Container>
     )
 }
