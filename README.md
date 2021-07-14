@@ -1,7 +1,7 @@
 # Layout 
 O layout escolhido para reforma foi o sabway ao qual neste momento contém cores, padrões, agrupamentos de itens e conteúdos adaptados para o nicho alimentício.
 
-# Bilbiotecas e dependências
+# Bibliotecas e dependências
 - React JS
 - [Styled Components](https://www.npmjs.com/package/react-responsive-carousel)
 - [React Icons](https://react-icons.github.io/react-icons/)
@@ -10,7 +10,7 @@ O layout escolhido para reforma foi o sabway ao qual neste momento contém cores
 
 # Mudanças
 O layout foi recriado de forma mais "lite" do ponto de vista do desenvolvedor. Ou seja, não mais ocupando somente o centro da página, mas abrangendo 100% do navegador, com isto pôde-se mostrar mais claramente as informações e opções para o usuário de maneira mais clara e objetiva, diante da quantidade de informações presentes na página neste momento.
-As páginas disponíveis neste projeto são "Home" e "NotFound. Ou seja, a página principal que se encontra pronta sendo esta utilizada como base para a estruturação de subpáginas e novas rotinas e também uma página para caso haja uma rota inexistente ao qual será exibido ao usuário. Assim, o Código foi escrito utilizando-se de componentes e rotas customizadas para facilitar a manutenção ou alterações em partes especificas da programação caso necessário.
+As páginas disponíveis neste projeto são "Home" e "NotFound". Ou seja, a página principal que se encontra pronta sendo esta utilizada como base para a estruturação de subpáginas e novas rotinas e também uma página para caso haja uma rota inexistente ao qual será exibido ao usuário. Assim, o código foi escrito utilizando-se de componentes e rotas customizadas para facilitar a manutenção ou alterações em partes especificas da programação caso necessário.
 
 # Getting Started with Create React App
 
