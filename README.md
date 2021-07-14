@@ -1,3 +1,17 @@
+# Layout 
+O layout escolhido para reforma foi o sabway ao qual neste momento contém cores, padrões, agrupamentos de itens e conteúdos adaptados para o nicho alimentício.
+
+# Bilbiotecas e dependências
+- React JS
+- [Styled Components](https://www.npmjs.com/package/react-responsive-carousel)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+
+# Mudanças
+O layout foi recriado de forma mais "lite" do ponto de vista do desenvolvedor. Ou seja, não mais ocupando somente o centro da página, mas abrangendo 100% do navegador, com isto pôde-se mostrar mais claramente as informações e opções para o usuário de maneira mais clara e objetiva, diante da quantidade de informações presentes na página neste momento.
+As páginas disponíveis neste projeto são "Home" e "NotFound. Ou seja, a página principal que se encontra pronta sendo esta utilizada como base para a estruturação de subpáginas e novas rotinas e também uma página para caso haja uma rota inexistente ao qual será exibido ao usuário. Assim, o Código foi escrito utilizando-se de componentes e rotas customizadas para facilitar a manutenção ou alterações em partes especificas da programação caso necessário.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
