@@ -1,5 +1,5 @@
 # Layout 
-O layout escolhido para reforma foi o sabway ao qual neste momento contém cores, padrões, agrupamentos de itens e conteúdos adaptados para o nicho alimentício.
+O layout escolhido para reforma foi o [sabway](https://www.subway.com/pt-BR) ao qual neste momento contém cores, padrões, agrupamentos de itens e conteúdos adaptados para o nicho alimentício.
 
 # Bibliotecas e dependências
 - React JS
