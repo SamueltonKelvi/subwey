@@ -116,6 +116,12 @@ const Container = styled.footer`
             align-items: center;
             justify-content: center;
         }
+        .footer-top{
+            ul{
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
 `;
 

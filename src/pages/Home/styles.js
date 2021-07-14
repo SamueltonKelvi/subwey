@@ -104,9 +104,8 @@ export const Aside = styled.aside`
     }
 
     @media (max-width: 700px){
-        .offers, .franchises{
-            flex-direction: column;
-            
+        .offers, .franchises{ flex-direction: column; }
+        .franchises{
             div{
                 width: 100%;
                 text-align: center;
