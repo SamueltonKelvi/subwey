@@ -258,12 +258,12 @@ export default function Menu() {
                     <ul>
                         <div className="content">
                             <h3>Sobre SUBWAY®</h3>
-                            <li><a href="#">História</a></li>
-                            <li><a href="#">Explore nosso mundo</a></li>
-                            <li><a href="#">Responsabilidade Social</a></li>
-                            <li><a href="#">Perguntas frequentes sobre a SUBWAY®</a></li>
-                            <li><a href="#">Entre em contato conosco</a></li>
-                            <li><a href="#">O Subway® Escuta — Perguntas frequentes</a></li>
+                            <li className="nutrition-content-li"><a href="#">História</a></li>
+                            <li className="nutrition-content-li"><a href="#">Explore nosso mundo</a></li>
+                            <li className="nutrition-content-li"><a href="#">Responsabilidade Social</a></li>
+                            <li className="nutrition-content-li"><a href="#">Perguntas frequentes sobre a SUBWAY®</a></li>
+                            <li className="nutrition-content-li"><a href="#">Entre em contato conosco</a></li>
+                            <li className="nutrition-content-li"><a href="#">O Subway® Escuta — Perguntas frequentes</a></li>
                         </div>
                         <div className="store-about"><h4 style={{ textAlign: 'center' }}>SUBWAY - EAT FRESH, LIVE GREEN</h4></div>
                     </ul>
@@ -272,9 +272,9 @@ export default function Menu() {
                     <ul>
                         <div className="content">
                             <h3>Carreiras SUBWAY</h3>
-                            <li><a href="#">Empregos na sede</a></li>
-                            <li><a href="#">Empregos em restaurantes locais</a></li>
-                            <li><a href="#">Veja nossas oportunidades de Franquia</a></li>
+                            <li className="nutrition-content-li"><a href="#">Empregos na sede</a></li>
+                            <li className="nutrition-content-li"><a href="#">Empregos em restaurantes locais</a></li>
+                            <li className="nutrition-content-li"><a href="#">Veja nossas oportunidades de Franquia</a></li>
                         </div>
                         <div className="store-about"><h4 style={{ textAlign: 'center' }}>GRANDES PESSOAS, GRANDES SANDUÍCHES</h4></div>
                     </ul>
@@ -283,14 +283,14 @@ export default function Menu() {
                     <ul>
                         <div className="content">
                             <h3>Seja dono de uma franquia</h3>
-                            <li><a href="#">Por que escolher a SUBWAY®?</a></li>
-                            <li><a href="#">Próximas etapas</a></li>
-                            <li><a href="#">Candidatar-se a proprietário</a></li>
-                            <li><a href="#">Participar de um seminário</a></li>
-                            <li><a href="#">Registre seu interesse</a></li>
-                            <li><a href="#">Perguntas frequentes sobre franquias</a></li>
-                            <li><a href="#">Contatar o departamento de vendas de franquia</a></li>
-                            <li><a href="#">Enviar um ponto comercial</a></li>
+                            <li className="nutrition-content-li"><a href="#">Por que escolher a SUBWAY®?</a></li>
+                            <li className="nutrition-content-li"><a href="#">Próximas etapas</a></li>
+                            <li className="nutrition-content-li"><a href="#">Candidatar-se a proprietário</a></li>
+                            <li className="nutrition-content-li"><a href="#">Participar de um seminário</a></li>
+                            <li className="nutrition-content-li"><a href="#">Registre seu interesse</a></li>
+                            <li className="nutrition-content-li"><a href="#">Perguntas frequentes sobre franquias</a></li>
+                            <li className="nutrition-content-li"><a href="#">Contatar o departamento de vendas de franquia</a></li>
+                            <li className="nutrition-content-li"><a href="#">Enviar um ponto comercial</a></li>
                         </div>
                         <div className="store-about"><h4 style={{ textAlign: 'center' }}>GRANDES PESSOAS, GRANDES SANDUÍCHES</h4></div>
                     </ul>
